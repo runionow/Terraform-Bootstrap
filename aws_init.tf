@@ -1,12 +1,7 @@
 # VARIABLES
 
-variable "aws_access_key" {
-  default = "<<access-key>>"
-}
-
-variable "aws_secret_key" {
-  default = "<<secret-key>>"
-}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
 
 variable "private_key_path" {
   default = "C:/Users/Arun Nekkalapudi/Desktop/key1/openssh"

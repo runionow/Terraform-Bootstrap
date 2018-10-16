@@ -43,11 +43,11 @@ Terraform maintains a state file to keep track of the state of the current deplo
 
 It has information about resource mappings and metadata, when deploying the state file will be locked.
 
+### Running with custm var file
+
+```
+terraform plan -var-file='..\terraform.tfvars'
+```
 
 
-
-
-## Understanding Terraform 
-## Integrating multipke providers
-## Using abstraction 
 
